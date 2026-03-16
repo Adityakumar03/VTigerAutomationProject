@@ -27,5 +27,6 @@ public class TC_001 extends BaseClass {
 		String company = eUtil.getSinglecellValueData("Leads", 1, 3);
 		CreatingNewLeadPage cnlp = new CreatingNewLeadPage(driver);
 		cnlp.createNewLead(fName, lName, company);
+		
 	}
 }
